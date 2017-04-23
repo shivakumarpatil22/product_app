@@ -1,0 +1,32 @@
+<p>
+  <strong>Car name:</strong>
+  <%= @car.car_name %>
+</p>
+
+<p>
+  <strong>Car no:</strong>
+  <%= @car.car_no %>
+</p>
+
+<p>
+  <strong>Car model:</strong>
+  <%= @car.car_model %>
+</p>
+
+<p>
+  <strong>Car length:</strong>
+  <%= @car.car_length %>
+</p>
+
+<p>
+  <strong>Car manufacture:</strong>
+  <%= @car.car_manufacture %>
+</p>
+
+<p>
+  <strong>Car price:</strong>
+  <%= @car.car_price %>
+</p>
+
+<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Back', cars_path %>
